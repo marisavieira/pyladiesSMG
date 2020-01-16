@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+#imgmenu{
+    height: 50px;
+}
+
+.inicio{
+    background-color: black;
+    height: 100vh;
+}
+
+.sobre{
+    background-color: pink;
+    height: 100vh;
+}
+
+.ladies{
+    background-color: #f1f2f6;
+    min-height: 100vh;
+}
+
+#circulo{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid black;
+}
+
+#fotoid{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    filter: grayscale(50%);
+}
+
+#membro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#idl{
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#redes{
+    height: 30px;
+}
+
+#fb{
+    height: 35px;
+}
+
+.evento{
+    background-color: purple;
+    height: 100vh;
+}
+
+.membro{
+    background-color: red;
+    height: 100vh;
+}
+
+.patrocinador{
+    background-color: greenyellow;
+    height: 100vh;
+}
